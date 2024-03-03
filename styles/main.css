@@ -1,4 +1,8 @@
-
+h {
+  font-size: 55pt;
+  color:blanchedalmond ;
+  font-display:floating ;
+}
 
 body {
   background-color: darkslategray;
@@ -7,7 +11,7 @@ body {
 
 h1 {
   color: green;
-  padding-inline-start:100pt ;
+  padding-inline-start:100pt;
 }
 
 p {

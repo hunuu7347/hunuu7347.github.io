@@ -4,7 +4,13 @@ h {
   font-display:floating ;
 }
 
-body {
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+  
+  body {
   background-color: darkslategray;
   font size:22px;
 }

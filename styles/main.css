@@ -1,7 +1,15 @@
+
+
 body {
-  font size:22px
+  background-color: darkslategray;
+  font size:22px;
+}
+
+h1 {
+  color: green;
+  padding-inline-start:100pt ;
 }
 
 p {
-  colour:purple
+  color:purple;
 }

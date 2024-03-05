@@ -1,7 +1,27 @@
-body {
-  font size:22px
+h {
+  font-size: 55pt;
+  color:blanchedalmond ;
+  font-display:floating ;
+}
+
+.myDiv {
+  border: 5px outset red;
+  background-color: lightblue;
+  text-align: center;
+}
+ 
+
+  body {
+  background-color: darkslategray;
+  font size:22px;
+}
+
+h1 {
+  color: green;
+  padding-inline-start:100pt;
 }
 
 p {
-  colour:purple
+  color:black
+  
 }

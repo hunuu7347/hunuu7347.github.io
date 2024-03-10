@@ -1,36 +1,83 @@
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-/* Styles */
+@media only screen and (min-device-width: 0px) and (max-device-width: 700px) {
+  h {
+    font-size: 20pt;
+    color: purple;
+  }
+
+  h2 {
+    font: size 16pt;
+    font-display: inline 40pt;
+  }
+
+  body {
+    color: slategrey;
+    background-blend-mode: lighten;
+    background-color: lightyellow;
+    font-size: 12pt;
+  }
+
+  .container {
+    column-count: 2;
+  }
 }
 
+@media only screen and (min-device-width: 700px) and (max-device-width: 1200px) {
+  .container {
+    column-count: 3;
+  }
 
+  h2 {
+    color: blue;
+    font-size: 16pt;
+  }
 
-h {
-  font-size: 55pt;
-  color:blanchedalmond ;
-  font-display:floating ;
+  body {
+    background-color: darkolivegreen;
+    margin-right: 0cap;
+  }
+
+  font {
+    size: 14pt;
+    color: black;
+  }
+
+  Margin {
+    inset-block: 40pt;
+  }
+}
+
+@media only screen and (min-device-width: 1200px) {
+  body {
+    background-color: cadetblue;
+    font-color: grey;
+    font-size: 14pt;
+  }
+
+  .container {
+    column-count: 2;
+    column-width: 200px;
+    height: 220px;
+  }
+
+  p {
+    min-width: fit-content;
+    font-color: black;
+    font-size: 14pt;
+    margin-block-start: 0cqi;
+  }
+
+  h {
+    font-color: black;
+    font-size: 40pt;
+    margin-block: 15pt;
+    font-style: italic;
+    font-weight: bolder;
+  }
 }
 
 .myDiv {
   border: 5px outset red;
   background-color: lightblue;
   text-align: center;
-}
- 
-
-  body {
-  background-color: darkslategray;
-  font size:22px;
-}
-
-h1 {
-  color: green;
-  padding-inline-start:100pt;
-}
-
-p {
-  color:black
-  
 }

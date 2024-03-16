@@ -17,6 +17,10 @@
     font-size: 12pt;
   }
 
+  p {
+    margin-bottom: 100 px;
+  }
+
   .container {
     column-count: 2;
   }
@@ -44,6 +48,10 @@
 
   Margin {
     inset-block: 40pt;
+  }
+
+  p {
+    margin-bottom: 100 px;
   }
 }
 
@@ -73,6 +81,10 @@
     margin-block: 15pt;
     font-style: italic;
     font-weight: bolder;
+  }
+
+  p {
+    margin-bottom: 100 px;
   }
 }
 

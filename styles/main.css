@@ -93,3 +93,7 @@
   background-color: lightblue;
   text-align: center;
 }
+
+.div 'space 3' {
+  line-height: 2.8;
+}

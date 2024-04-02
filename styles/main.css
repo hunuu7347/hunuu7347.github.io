@@ -70,6 +70,7 @@
 
   p {
     min-width: fit-content;
+    max-width: 1800px;
     font-color: black;
     font-size: 14pt;
     margin-block-start: 0cqi;
@@ -96,4 +97,12 @@
 
 .div 'space 3' {
   line-height: 2.8;
+}
+
+.div page 3 {
+  background: linear-gradient(
+    217deg,
+    rgba(255, 0, 0, 0.8),
+    rgba(255, 0, 0, 0) 70.71%
+  );
 }

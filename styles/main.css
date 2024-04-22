@@ -57,9 +57,13 @@
 
 @media only screen and (min-device-width: 1200px) {
   body {
-    background-color: cadetblue;
-    font-color: grey;
+    background:
+    cadetblue;
     font-size: 14pt;
+  }
+
+  .page 3 {
+    ;
   }
 
   .container {
@@ -71,7 +75,7 @@
   p {
     min-width: fit-content;
     max-width: 1800px;
-    font-color: black;
+    color: black;
     font-size: 14pt;
     margin-block-start: 0cqi;
   }
@@ -95,17 +99,11 @@
   text-align: center;
 }
 
-.div 'space 3' {
+.space 3' {
   line-height: 2.8;
 }
 
-.div page 3 {
-  background: linear-gradient(
-    217deg,
-    rgba(255, 0, 0, 0.8),
-    rgba(255, 0, 0, 0) 70.71%
-  );
-}
+
 
 .center {
   display: block;
